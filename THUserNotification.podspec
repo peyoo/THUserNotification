@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
     s.version = '0.1'
     s.license = 'MIT'
     s.summary = 'THUserNotification'
-    s.platform     = :osx,'10.7'
+    s.platform     = :osx,'10.6'
     s.source = { :git => 'https://github.com/peyoo/THUserNotification.git'}
-    s.source_files = 'THUserNotification/**/banner2lines.tiff','THUserNotification/**/McAnimationUtility.h,m','THUserNotification/**/THUserNotification.h,m'
+    s.source_files = '**/banner2lines.tiff','**/McAnimationUtility.h,m','**/THUserNotification.h,m'
 end
