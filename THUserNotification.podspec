@@ -5,5 +5,6 @@ Pod::Spec.new do |s|
     s.summary = 'THUserNotification'
     s.platform     = :osx,'10.6'
     s.source = { :git => 'https://github.com/peyoo/THUserNotification.git'}
-    s.source_files = '**/*.tiff','**/McAnimationUtility.h,m','**/THUserNotification.h,m'
+    s.source_files = 'THUserNotification/*/McAnimationUtility.h,m','THUserNotification/*/THUserNotification.h,m'
+    s.resources    = 'THUserNotification/*/*.tiff'
 end
