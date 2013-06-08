@@ -6,5 +6,6 @@ Pod::Spec.new do |s|
     s.platform     = :osx,'10.6'
     s.source = { :git => 'https://github.com/peyoo/THUserNotification.git'}
     s.source_files = 'THUserNotification/THUserNotification/*.{h,m}'
+    s.framework    = 'CoreGraphics'
     s.resources    = 'THUserNotification/*/*.tiff'
 end
